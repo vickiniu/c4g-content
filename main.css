@@ -1,0 +1,169 @@
+body{
+	background-color: #f0efef;
+}
+
+.header_img img{
+	position: fixed;  
+	top: 0px;
+	z-index: 10; 
+	width: 25%;
+	padding-top: 1%;
+	padding-bottom: 0%;
+	padding-left: 2%;
+	padding-right: 47.1%;
+	margin: auto;
+	background-color: white;
+
+
+}
+
+.navbar{
+	position: fixed;
+	top: 10%;
+	margin: auto;
+	width: 74%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+	background-color: white;
+	z-index: 9;
+
+}
+
+.tabbed{
+	margin-left: 50px;
+}
+
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+	height: 50px;
+}
+
+.navbar li{
+	display: inline;
+	float: center;
+}
+
+.navbar a:link, a:visited {
+    display: inline;
+    width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #F99800;
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar a:hover, a:active {
+    background-color: #f5bc2d;
+} 
+
+#site{
+	padding-top: 10%;
+}
+
+#potential{
+	padding-top: 15%;
+}
+
+.pot_body{
+	z-index: 0;
+}
+
+#stem{
+	padding-top: 15%;
+}
+
+#health{
+	padding-top: 15%;
+}
+
+.container{
+	background-color: white;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	font-family: "Lucida Sans unicode", "Lucida Grande", sans-serif;
+}
+
+.content a:link{
+	color: #82992D;
+}
+
+.content a:visited{
+	color: #57661e;
+}
+
+.head_desc{
+	font-family: Verdana, Geneva, sans-serif;
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: center;
+}
+
+
+
+
+.content img{
+	width: 200px;
+	vertical-align: top;
+}
+
+.content h1, h3{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.content h1{
+	color: #880000;
+	padding: 0;
+	margin-top: 0;
+}
+
+
+.head_desc h1{
+	margin-top: 10%;
+	color: black;
+}
+
+.content h3{
+	color: #5a5a5a;
+	font-size: 25px;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	width: 100%;
+	border: none;
+	background-color: ;
+}
+
+td{
+	padding-left: 50px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border: none;
+}
+
+tr{
+	border-bottom: 1px solid #B0B0B0;
+	border-top: 1px solid #B0B0B0;
+}
+
+#footer{
+	padding-top: 5%;
+}
+
+#footer img{
+	width: 50%;
+}
